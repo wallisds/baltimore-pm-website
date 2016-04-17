@@ -506,6 +506,13 @@ aside#sidebar {
   line-height: 1.3;
   background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
 }
+aside#sidebar {
+ display: block;
+}
+aside#sidebar p.address {
+ display: block;
+ text-align: center;
+}
 aside#sidebar p.repo-owner,
 aside#sidebar p.repo-owner a {
   font-weight: bold;
