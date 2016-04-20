@@ -594,6 +594,10 @@ ul.archive li:first-child {
   margin-top: auto;
 }
 
+ul.talks li {
+  margin-top: auto;
+}
+
 
 /* COMMON STYLES */
 
