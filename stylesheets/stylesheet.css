@@ -477,11 +477,25 @@ header h2 {
   letter-spacing: 0;
 }
 
+.logo {
+ position:relative;
+ width: 100px;
+}
 .inner {
   position: relative;
-  width: 940px;
+  width: 840px;
   margin: 0 auto;
 }
+
+.logo, .inner {
+  display: inline-block;
+}
+
+.logo img{
+ width: 20%;
+ height: 20%;
+}
+
 
 #content-wrapper {
   padding-top: 30px;
