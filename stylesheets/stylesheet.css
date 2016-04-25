@@ -478,24 +478,19 @@ header h2 {
 }
 
 .logo {
- position:relative;
- width: 100px;
+  position: relative;
 }
+
 .inner {
   position: relative;
-  width: 840px;
+  width: 940px;
   margin: 0 auto;
 }
 
-.logo, .inner {
-  display: inline-block;
+.logo img {
+  width: 25%;
+  height: 25%;
 }
-
-.logo img{
- width: 20%;
- height: 20%;
-}
-
 
 #content-wrapper {
   padding-top: 30px;
@@ -667,6 +662,8 @@ form {
   text-indent: 6px;
   letter-spacing: -1px;
 }
+
+
 
 #main-content h1:before {
   padding-right: 0.3em;
